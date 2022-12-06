@@ -1,0 +1,131 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 4, 2022, 12:26:14 PM
+    Author     : ADMIN
+*/
+
+
+
+.py-5 {
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+}
+
+
+.nav-link:hover{
+    background: linear-gradient(to right,#52b788,#3a86ff);
+    -webkit-background-clip:text;
+    color: transparent !important;
+}
+.navbar-brand{
+    background: linear-gradient(to right,#52b788,#3a86ff);
+    -webkit-background-clip:text;
+    color: transparent !important;
+}
+.thumail{
+    width: 50%;
+    background-color:#e1f7f7 ;
+    display: flex;
+}
+.items{
+    width: 25%;
+    padding: 10px;
+
+}
+.page-link:hover{
+    background: linear-gradient(45deg, red, blue);
+    color: white;
+}
+.nav-link{
+    color:white !important;
+    font-size: 18px !important;
+
+}
+.bg-dark {
+    background-color: #282A35 !important;
+}
+
+.p-4 {
+    padding: 1px !important;
+}
+
+
+.mb-4 {
+    margin-bottom: 10px!important;
+}
+.map{
+    margin-left: 0px !important;
+    margin-bottom: 30px !important;
+}
+
+
+
+
+
+
+.buttoncart {
+    min-width: 100px;
+    min-height: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 200;
+    color: #313133;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+}
+
+buttoncart::before {
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(170px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+.buttoncart:hover, .buttoncart:focus {
+    color: #313133;
+    transform: translateY(-6px);
+}
+
+buttoncart:hover::before, buttoncart:focus::before {
+    opacity: 1;
+}
+
+buttoncart::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+buttoncart:hover::after, buttoncart:focus::after {
+    animation: none;
+    display: none;
+}
