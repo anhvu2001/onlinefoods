@@ -1,7 +1,7 @@
 # onlinefoods
 Đặt đồ ăn vặt 
 Website đặt đồ ăn vặt cung cấp chức năng đăng ký, đăng nhập hỗ trợ người dùng đặt hàng các món ăn vặt đang được yêu thích nhất đến tay khách hành nhanh chóng và tiện lợi với số lượng sản phẩm đa dạng phong phú.
-📦 Cài đặt
+                 📦 Cài đặt
 •	Tải và cài đặt https://netbeans.apache.org/download/index.html
 •	Tải và cài đặt https://www.mysql.com/downloads/
 •	Tải và cài đặt https://tomcat.apache.org/download-10.cgi
