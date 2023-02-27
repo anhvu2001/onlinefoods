@@ -1,23 +1,7 @@
 # onlinefoods
 Đặt đồ ăn vặt. 
 Website đặt đồ ăn vặt cung cấp chức năng đăng ký, đăng nhập hỗ trợ người dùng đặt hàng các món ăn vặt đang được yêu thích nhất đến tay khách hành nhanh chóng và tiện lợi với số lượng sản phẩm đa dạng phong phú.
-                 📦 Cài đặt
-•	Tải và cài đặt https://netbeans.apache.org/download/index.html
-•	Tải và cài đặt https://www.mysql.com/downloads/
-•	Tải và cài đặt https://tomcat.apache.org/download-10.cgi
-•	Giải nén Project
-•	Mở MySQL Workbench tạo schema mới
-•	Import doannganh.sql vào schema mới vừa tạo (Server > Data Import > Import from Seft-Contained File > Default Schema to be Imported To...)
-•	Mở Netbean (File > Open Project) chọn project onlinefoods vừa giải nén
-•	Vào file database.properties trên project onlinefoods chỉnh sửa thông tin account mysql và cơ sở dữ liệu tạo phía trên setup database 
-hibernate.connection.url=jdbc:mysql://localhost:3306/****
-hibernate.connection.username=root
-hibernate.connection.password=****
-•	Chuột phải project chọn Clean and Build project hoặc Shift+F11
-•	Sau khi build xong thì chuột phải project chọn Run hoặc F6
-🚀 Tài khoản test trong hệ thống
-•	Role Admin: username: admin password: 123456
-•	Role khách hàng: username: anhvu2812 password: 1
+# Một số giao diện.
 
 #Đăng nhập
 
